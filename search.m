@@ -1,5 +1,5 @@
 function [s,fval,exitflag,output] = search(lambda,w)
-%% search(lambda,w) finds the optimal sigma in computing Müntz Legendre polynomials.
+%% search(lambda,w) find the optimal sigma in computing Müntz Legendre polynomials.
 % Input: lambda is a column vector
 %        w is a real number
 % Output: s is the optimal sigma. fval, exitflag and output are the parameters corresponding to fminsearch.m        
