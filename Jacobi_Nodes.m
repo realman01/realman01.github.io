@@ -1,4 +1,4 @@
-% n个节点的Gauss积分公式，区间(-1,1)
+% n-nodes Gauss-Jacobi Quadrature in interval (-1,1)
 function [t,w] = Jacobi_Nodes(alpha,beta,n)
 if alpha == -1/2 && beta == -1/2 
     [t,w] = Chebyshev_Nodes(n,-1,1);
